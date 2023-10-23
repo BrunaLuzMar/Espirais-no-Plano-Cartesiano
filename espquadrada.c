@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <math.h>
 
-int const OITO = 8;
-
 typedef struct{
     int num_quadrante;
     int valor_diagonal;
