@@ -7,6 +7,18 @@
 ## Requisitos do Sistema
 
 (Se aplicável, liste os requisitos de sistema necessários para usar o seu projeto ou software, como sistema operacional, versões específicas de software, hardware, etc.)
+- Requisitos de Sistema:
+Sistema Operacional: Liste os sistemas operacionais compatíveis, como Windows, Linux, macOS, etc.
+Arquitetura: Indique se o software é compatível com sistemas de 32 bits ou 64 bits.
+Dependências: Liste qualquer software, bibliotecas ou frameworks que o usuário precisa ter instalado para que o algoritmo funcione corretamente.
+- Hardware:
+Recursos de Hardware: Especifique os requisitos de hardware, como CPU, RAM, espaço em disco, GPU (se necessário), etc.
+Versões de Software:
+- Versões Necessárias: Se o algoritmo depende de versões específicas de software, como Python, Java, ou outros, mencione essas versões.
+Configurações Específicas:
+- Configurações do Sistema: Se há configurações específicas do sistema que devem ser habilitadas ou desabilitadas, explique-as.
+- Instruções de Instalação:
+Forneça instruções detalhadas sobre como instalar qualquer software ou **bibliotecas necessárias**, bem como qualquer configuração específica do sistema que possa ser exigida.
 
 ## Instalação
 
