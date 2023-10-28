@@ -23,7 +23,7 @@ int maisProximo(int n, int valor1, int valor2){
     }
 }
 
-int calcularPonto(int n){
+void calcularPonto(int n){
     int x, y;
     double raiz = sqrt(n);
     int teto = ceil(raiz);
@@ -58,8 +58,6 @@ int calcularPonto(int n){
     }
 
     printf("(%d, %d)\n", x, y);
-
-    return 0;
 }
 
 int main(){
