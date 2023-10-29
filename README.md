@@ -1,63 +1,25 @@
 # trabalho_md_espirais
 
 ## Descrição
+Os programas calculam as coordenadas de um dado ponto em um plano cartesiano de acordo com os padrões determinados pela espiral quadrada e triangular. Dado esse ponto o teto e o piso de sua raiz são calculados, o quadrado desses valores correspondem a pontos nas espirais e a divisão da raiz do quadrado mais proximo ao ponto de entrada resulta na posição desse quadrado, a partir dele o algoritmo encontra da posição do número informado.
 
-(Forneça uma breve descrição do seu projeto ou software. Explique o que ele faz, seu propósito e seus recursos principais.)
+## Pré-Requisitos
+O sistema operacional Linux utilizado foi Ubuntu, na versão 22.04.3. A versão do compilador gcc utilizada foi 11.4.0. Para compilar cada um dos programas são necessários os seguintes comandos:
 
-## Requisitos do Sistema
+gcc espquadrada.c -o espquadrada -lm
+gcc esptriangular.c -o esptriangular -lm
 
-(Se aplicável, liste os requisitos de sistema necessários para usar o seu projeto ou software, como sistema operacional, versões específicas de software, hardware, etc.)
-- Requisitos de Sistema:
-Sistema Operacional: Liste os sistemas operacionais compatíveis, como Windows, Linux, macOS, etc.
-Arquitetura: Indique se o software é compatível com sistemas de 32 bits ou 64 bits.
-Dependências: Liste qualquer software, bibliotecas ou frameworks que o usuário precisa ter instalado para que o algoritmo funcione corretamente.
-- Hardware:
-Recursos de Hardware: Especifique os requisitos de hardware, como CPU, RAM, espaço em disco, GPU (se necessário), etc.
-Versões de Software:
-- Versões Necessárias: Se o algoritmo depende de versões específicas de software, como Python, Java, ou outros, mencione essas versões.
-Configurações Específicas:
-- Configurações do Sistema: Se há configurações específicas do sistema que devem ser habilitadas ou desabilitadas, explique-as.
-- Instruções de Instalação:
-Forneça instruções detalhadas sobre como instalar qualquer software ou **bibliotecas necessárias**, bem como qualquer configuração específica do sistema que possa ser exigida.
+Em seguida, para executar os programas, utilize os seguintes comandos:
 
-## Instalação
+./espquadrada
+./esptriangular
 
-(Instruções passo a passo sobre como instalar e configurar o seu projeto ou software. Isso pode incluir comandos de instalação, configuração inicial, etc.)
+## Funcionamento
+O programa irá solicitar que você digite um número, ele irá calcular as coordenadas do ponto informado a partir de pontos estrategicos mais proximos a ele e imprimi-las. Digite um número e pressione Enter.
 
-## Uso
+Exemplo:
+$ ./espquadrada
+13
+(-2, 1)
 
-(Forneça informações sobre como usar o seu projeto ou software. Inclua exemplos de comandos, capturas de tela ou qualquer coisa que ajude os usuários a começar.)
-
-## Contribuições
-
-(Se você está aceitando contribuições da comunidade, explique como as pessoas podem contribuir para o seu projeto. Isso pode incluir orientações sobre como criar problemas, solicitações de pull, etc.)
-
-## Licença
-
-(Declare a licença sob a qual o seu projeto é distribuído. Isso é importante para esclarecer os direitos e restrições dos usuários.)
-
-## Contato
-
-(Fornecer informações de contato, como endereço de e-mail, site ou links para redes sociais, para que os usuários possam entrar em contato para suporte ou perguntas.)
-
-## Histórico de Versões
-
-(Se aplicável, forneça um histórico de versões do seu projeto, destacando as mudanças significativas em cada versão.)
-
-## Agradecimentos
-
-(Se desejar, você pode agradecer a pessoas, organizações ou projetos que tenham contribuído para o seu projeto.)
-
-## Notas Adicionais
-
-(Adicione quaisquer informações adicionais que possam ser úteis para os usuários, como problemas conhecidos, dicas ou precauções.)
-
-## Como Denunciar Problemas
-
-(Explique como os usuários podem relatar problemas ou bugs, bem como as informações necessárias para criar relatórios de problemas eficazes.)
-
-## Copyright
-
-(Inclua informações de copyright, se aplicável.)
-
-Lembre-se de personalizar as seções com informações específicas do seu projeto ou software. O arquivo "Leiame.txt" é uma maneira importante de comunicar claramente aos usuários as informações essenciais relacionadas ao seu projeto e como usá-lo.
+As coordenadas do ponto 13 são (-2, 1).
