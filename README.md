@@ -1,4 +1,4 @@
-# trabalho_md_espirais
+# Espirais no Plano Cartesiano
 
 ## Descrição
 Os programas calculam as coordenadas de um dado ponto em um plano cartesiano de acordo com os padrões determinados pela espiral quadrada e triangular. Dado esse ponto o teto e o piso de sua raiz são calculados, o quadrado desses valores correspondem a pontos nas espirais e a divisão da raiz do quadrado mais proximo ao ponto de entrada resulta na posição desse quadrado, a partir dele o algoritmo encontra da posição do número informado.
